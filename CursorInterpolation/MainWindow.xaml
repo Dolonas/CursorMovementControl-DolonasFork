@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Имитация движения курсора" Height="190" Width="416">
     <Grid>
-        <Button x:Name="move_cursor" Content="Move cursor smoothly" HorizontalAlignment="Left" Margin="160,13,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="move_cursor_imitate_behaviour"/>
+        <Button x:Name="move_cursor" Content="Move cursor smoothly" HorizontalAlignment="Left" Margin="160,13,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="MoveCursorImitateBehaviour"/>
         <TextBox x:Name="x1_text" HorizontalAlignment="Left" Height="23" Margin="10,14,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="y1_text" HorizontalAlignment="Left" Height="23" Margin="10,42,0,0" TextWrapping="Wrap" Text="300" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="x2_text" HorizontalAlignment="Left" Height="23" Margin="10,70,0,0" TextWrapping="Wrap" Text="300" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="y2_text" HorizontalAlignment="Left" Height="23" Margin="10,98,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="button1" Content="Move cursor directly" HorizontalAlignment="Left" Margin="160,45,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="move_cursor_directly"/>
+        <Button x:Name="button1" Content="Move cursor directly" HorizontalAlignment="Left" Margin="160,45,0,0" VerticalAlignment="Top" Width="146" Height="24" Click="MoveCursorDirectly"/>
     </Grid>
 </Window>

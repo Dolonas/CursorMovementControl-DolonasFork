@@ -26,3 +26,19 @@ C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имит�
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.g.resources
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.Properties.Resources.resources
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.GenerateResource.Cache
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\bin\Debug\CursorInterpolation.exe.config
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\bin\Debug\CursorInterpolation.exe
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\bin\Debug\CursorInterpolation.pdb
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.AssemblyReference.cache
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.exe.config
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\MainWindow.g.cs
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\App.g.cs
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation_MarkupCompile.cache
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation_MarkupCompile.lref
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\MainWindow.baml
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.g.resources
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.Properties.Resources.resources
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.GenerateResource.cache
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.CoreCompileInputs.cache
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.exe
+D:\Develop\Projects\CursorMovementControl-DolonasFork\CursorInterpolation\obj\Debug\CursorInterpolation.pdb

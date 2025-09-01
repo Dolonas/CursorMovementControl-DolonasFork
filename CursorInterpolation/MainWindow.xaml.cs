@@ -20,19 +20,19 @@ namespace CursorInterpolation
         int x, y, beginCorn, eighth;
         double cosA, sinA;
 
-        private void get_cursor_positions()
+        private void GetCursorPositions()
         {
-            x1 = Int32.Parse(x1_text.Text);
-            y1 = Int32.Parse(y1_text.Text);
+            x1 = int.Parse(x1_text.Text);
+            y1 = int.Parse(y1_text.Text);
 
-            x2 = Int32.Parse(x2_text.Text);
-            y2 = Int32.Parse(y2_text.Text);
+            x2 = int.Parse(x2_text.Text);
+            y2 = int.Parse(y2_text.Text);
 
             rndX = new Random();
             rndY = new Random();
         }
 
-        private int getUpCosDirection(double cosAA) //возвращает начальное число для отсчета параметра
+        private int GetUpCosDirection(double cosAA) //возвращает начальное число для отсчета параметра
         {
             //int parts = 5; //количество частей, на которые разделется одна восьмая круга
 
@@ -53,7 +53,7 @@ namespace CursorInterpolation
             return beginRand;
         }
 
-        private int getDownCosDirection(double cosAA)
+        private int GetDownCosDirection(double cosAA)
         {
             //определяем, в какой из угловых диапазонов мы попали
             int beginRand = 0;
@@ -78,9 +78,9 @@ namespace CursorInterpolation
 
         //также важная функция, выполняемая методом - ответ на вопрос "нажно ли вообще передвигать курсор?". Если передвижение курсора не
         //требуется, то произойдет возврат из метода для предотвращения деления на 0
-        private bool pre_quarter_calcucation()
+        private bool PreQuarterCalcucation()
         {
-            get_cursor_positions();
+            GetCursorPositions();
 
             //определеяем, в какой четверти находится конечная точка по отношению к начальной
             x = x2 - x1; y = y2 - y1;
@@ -118,7 +118,7 @@ namespace CursorInterpolation
         }
 
         //отдельный расчет четверти, в которой находится конечная точка передвижения курсора
-        private int determine_eighth()
+        private int DetermineEighth()
         {
             //первая четверть - правая верхняя часть
             if (x >= 0 && y <= 0)
@@ -159,13 +159,13 @@ namespace CursorInterpolation
         }
 
         //преимущественно данный метод планируется использовать в тех случаях, когда нужно точное перемещение курсора от начала до конца
-        private void move_cursor_directly(object sender, RoutedEventArgs e)
+        private void MoveCursorDirectly(object sender, RoutedEventArgs e)
         {
-            if (!pre_quarter_calcucation())
+            if (!PreQuarterCalcucation())
                 return;
             else
             {
-                eighth = determine_eighth();
+                eighth = DetermineEighth();
             }
 
             //часть по вычислению текущих координат курсора при движении по прямой. используется обычное уравнение прямой в прямоугольной системе
@@ -217,21 +217,21 @@ namespace CursorInterpolation
             }
         }
 
-        private void move_cursor_imitate_behaviour(object sender, RoutedEventArgs e)
+        private void MoveCursorImitateBehaviour(object sender, RoutedEventArgs e)
         {
-            if (!pre_quarter_calcucation())
+            if (!PreQuarterCalcucation())
                 return;
             else
             {
-                eighth = determine_eighth();
+                eighth = DetermineEighth();
 
                 switch (eighth)
                 {
                     case 1: case 4: case 5: case 8:
-                        beginCorn = getUpCosDirection(cosA);
+                        beginCorn = GetUpCosDirection(cosA);
                         break;
                     case 2: case 3: case 6: case 7:
-                        beginCorn = getDownCosDirection(cosA);
+                        beginCorn = GetDownCosDirection(cosA);
                         break;
                 }
             }
