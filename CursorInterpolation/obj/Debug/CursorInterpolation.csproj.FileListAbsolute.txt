@@ -26,3 +26,19 @@ C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имит�
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.g.resources
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.Properties.Resources.resources
 C:\Users\Max\Desktop\Blockchain\Автоматизация xfaucet net\Имитация движения курсора\CursorInterpolation\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.GenerateResource.Cache
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\bin\Debug\CursorInterpolation.exe.config
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\bin\Debug\CursorInterpolation.exe
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\bin\Debug\CursorInterpolation.pdb
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.AssemblyReference.cache
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.exe.config
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\MainWindow.g.cs
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\App.g.cs
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation_MarkupCompile.cache
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation_MarkupCompile.lref
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\MainWindow.baml
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.g.resources
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.Properties.Resources.resources
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.GenerateResource.cache
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.csproj.CoreCompileInputs.cache
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.exe
+F:\Develop\Projects\CursorMovementControl\CursorInterpolation\obj\Debug\CursorInterpolation.pdb
