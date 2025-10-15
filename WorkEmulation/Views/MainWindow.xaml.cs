@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Threading;
-using ArchCopier.ViewModels;
+using WorkEmulation.ViewModels;
 
 namespace WorkEmulation.Views;
 

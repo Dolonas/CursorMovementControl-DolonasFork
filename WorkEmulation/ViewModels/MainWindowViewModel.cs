@@ -6,7 +6,7 @@ using WorkEmulation.ViewModels.Base;
 
 
 
-namespace ArchCopier.ViewModels;
+namespace WorkEmulation.ViewModels;
 
 internal class MainWindowViewModel : ViewModel, INotifyPropertyChanged
 {
