@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
         xmlns:commands="clr-namespace:WorkEmulation.Infrastructure.Commands"
         xmlns:domain="clr-namespace:WorkEmulation.ViewModels"
         d:DataContext="{d:DesignInstance domain:MainWindowViewModel}"
@@ -19,6 +20,7 @@
         xmlns:local="clr-namespace:WorkEmulation"
         mc:Ignorable="d"
         Title="Имитация движения курсора" Height="190" Width="416">
+  
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="15" />
@@ -31,7 +33,7 @@
             <ColumnDefinition Width="2.6*" />
             <ColumnDefinition Width="0.05*" />
         </Grid.ColumnDefinitions>
-        
+       
         <DockPanel Grid.Row="1" Grid.Column="1">
             <TextBox DockPanel.Dock="Top" Text="{Binding X1}" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
             </TextBox>
@@ -61,6 +63,7 @@
                 Style="{StaticResource MaterialDesignPaperButton}"
                 ToolTip="Прочитать активную открытую сборку в Компасе" />
         </StackPanel>
-        
+        <tb: Grid.Row="0" Grid.Column="0" TaskbarIcon 
+             />
     </Grid>
 </Window>

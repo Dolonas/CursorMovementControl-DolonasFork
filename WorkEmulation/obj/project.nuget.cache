@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hmyd/PxwYNA=",
+  "dgSpecHash": "CFB4JssVg9Q=",
   "success": true,
   "projectFilePath": "F:\\Develop\\Projects\\CursorMovementControl\\WorkEmulation\\WorkEmulation.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\shishkin\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.1.0\\hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512",
     "C:\\Users\\shishkin\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\shishkin\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
     "C:\\Users\\shishkin\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
