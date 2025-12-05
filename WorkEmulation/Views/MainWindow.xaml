@@ -4,6 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:commands="clr-namespace:WorkEmulation.Infrastructure.Commands"
+        xmlns:domain="clr-namespace:WorkEmulation.ViewModels"
+        d:DataContext="{d:DesignInstance domain:MainWindowViewModel}"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
         TextElement.FontSize="13"
@@ -31,10 +33,14 @@
         </Grid.ColumnDefinitions>
         
         <DockPanel Grid.Row="1" Grid.Column="1">
-            <TextBox x:Name="x1_text" DockPanel.Dock="Top" Height="23"  TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="y1_text" DockPanel.Dock="Top"  Height="23"  TextWrapping="Wrap" Text="300" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="x2_text" DockPanel.Dock="Top"  Height="23" TextWrapping="Wrap" Text="300" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="y2_text" DockPanel.Dock="Top" Height="23" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="120"/>
+            <TextBox DockPanel.Dock="Top" Text="{Binding X1}" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            </TextBox>
+            <TextBox DockPanel.Dock="Top" Text="{Binding Y1}" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            </TextBox>
+            <TextBox DockPanel.Dock="Top" Text="{Binding X2}" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            </TextBox>
+            <TextBox DockPanel.Dock="Top" Text="{Binding Y2}" Height="23"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120">
+            </TextBox>
         </DockPanel>
         <StackPanel Grid.Row="1" Grid.Column="2"  Orientation="Vertical">
             <Button
